@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="not_in_line.css">
+        <script src="https://kit.fontawesome.com/603fbd23d9.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img
+                src="https://notinline.org/home-assets/img/logo.png"
+                class="in_line_logo" height="100px"
+              />Not<span class="in_color">In</span>Line
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ml-auto ">
+                <a class="nav-link text-dark ml-3" href="#" id="navItem2">Home</a>
+                <a class="nav-link text-dark" href="#" id="navItem3">Health Conditions</a>
+                <a class="nav-link text-dark" href="#" id="navItem4"><span class="lab_tests">Lab Tests</span></a>
+                <a class="nav-link text-dark" href="#" id="navItem4">Medicines</a>
+                <button class="btn btn-secondary button text-center m-1">For Patients</button>
+                <button class="btn btn-secondary button text-center m-1">For Hospitals</button>
+                <button class="btn btn-secondary bg-dark button text-center ml-5"> <img src="https://th.bing.com/th/id/OIP.hGC3FO3Gl8hzGgya96h3uwHaHa?pid=ImgDet&rs=1" height="30px"/>Play Store</button>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="bg-container">
+          <div class="container">
+            <div class="row ">
+              <div class="col-lg-6 d-none d-lg-block ">
+                <div class="user-details pt-1">
+                  <div class="box1 text-center mb-2 shadow-lg p-1">
+                    <h3 class="p-2">Fill in the details to get a call!</h3>
+                    <form action="/action_page.php">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+                      </svg>
+                      <input class="box2 text-center" type="text" id="fname" name="fname" value="Full Name"><br><br>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                        <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                      </svg>
+                      <input class="box2 text-center" type="text" id="lname" name="lname" value="Phone Number"><br><br>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                        <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                      </svg>
+                      <input class="box2 text-center text-white" type="text" id="number" name="number" value="Location"><br><br>
+                      <div class="d-flex flex-row">
+                        <p><input class="box2" style="height: 10px;" type="checkbox" ></p>
+                        <p>By continuing ,you agree to our T & C and privacy policy</p>
+                      </div>
+                      <button class="btn btn-primary" style="font-weight: bold;">Proceed</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 d-lg-none">
+                <h1 ><span class="best-in-class">Best in class </span>lab tests !</h1>
+                <div class="girl-image d-none d-lg-inline-block">
+                    <img src="https://thumbs.dreamstime.com/b/female-lab-technician-looking-microscope-laboratory-medical-clinic-his-workplace-172280960.jpg" 
+                    width="300px" height="300px" class="image" />
+                </div>
+              </div>
+              <div class="col-12 d-lg-none pb-5">
+                <button class="btn btn-primary text-center" style="border-radius: 15px;">Get Full Body check up now at 500/-</button><br/><br/>
+                <button class="btn btn-primary text-center" style="border-style: 15px;">  <span style="text-decoration: line-through;">5,999</span><span class="p-2">999/-</span> 70 % off</button>
+              </div>
+              <div class="col-12 d-lg-none ">
+                <div class="user-details pt-3">
+                  <div class="box1 text-center mb-3 shadow-lg p-5">
+                    <h3 class="p-2">Fill in the details to get a call!</h3>
+                    <form action="/action_page.php">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+                      </svg>
+                      <input class="box2 text-center" type="text" id="fname" name="fname" value="Full Name"><br><br>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                        <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                      </svg>
+                      <input class="box2 text-center" type="text" id="lname" name="lname" value="Phone Number"><br><br>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                        <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                      </svg>
+                      <input class="box2 text-center text-white" type="text" id="number" name="number" value="Location"><br><br>
+                      <div class="d-flex flex-row">
+                        <p><input class="box2" style="height: 10px;" type="checkbox" ></p>
+                        <p>By continuing ,you agree to our T & C and privacy policy</p>
+                      </div>
+                      <button class="btn btn-primary" style="font-weight: bold;">Proceed</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="d-none d-lg-block col-lg-6">
+                <h1 ><span class="best-in-class">Best in class </span>lab tests !</h1>
+                <div class="girl-image d-lg-inline-block">
+                    <img src="https://thumbs.dreamstime.com/b/female-lab-technician-looking-microscope-laboratory-medical-clinic-his-workplace-172280960.jpg" 
+                    width="300px" height="300px" class="image" />
+                </div>
+              </div>
+              <div class="d-none d-lg-block col-lg-12  pb-5">
+                <button class="btn btn-primary text-center" style="border-radius: 15px;">Get Full Body check up now at 500/-</button>
+                <button class="btn btn-primary text-center" style="border-style: 15px;">  <span style="text-decoration: line-through;">5,999</span><span class="p-2">999/-</span> 70 % off</button>
+              </div>
+            
+              <div class="col-12 d-lg-none text-center ">
+                <div class="d-flex flex-row   ">
+                  <img src="https://3.imimg.com/data3/NJ/LU/MY-1911407/logo-nabl-1-250x250.jpg" height="30px" class="ml-5"/>
+                  <h5 >NABL Accredited labs</h5>
+                  <img src="https://th.bing.com/th/id/R.e8f75ec0390d5a9210d3fd75f154d284?rik=wscjrjNHR%2fFe9g&riu=http%3a%2f%2fwww.clker.com%2fcliparts%2f6%2f6%2fb%2f1%2f1516809756744132231injection-clipart.med.png&ehk=3IWV3QrxMD7XO6q3Gph1grhPKRKkmTjxLrdl7nBMNYU%3d&risl=&pid=ImgRaw&r=0" height="30px" class="ml-5"/>
+                  <h5 class="">NABL Accredited labs</h5>
+                </div>
+              </div>
+              <div class="d-none col-lg-12 d-lg-block text-center ml-5 pl-5 ">
+                <div class="d-flex flex-row   ">
+                  <img src="https://3.imimg.com/data3/NJ/LU/MY-1911407/logo-nabl-1-250x250.jpg" height="30px" class="ml-5"/>
+                  <h5 >NABL Accredited labs</h5>
+                  <img src="https://th.bing.com/th/id/R.e8f75ec0390d5a9210d3fd75f154d284?rik=wscjrjNHR%2fFe9g&riu=http%3a%2f%2fwww.clker.com%2fcliparts%2f6%2f6%2fb%2f1%2f1516809756744132231injection-clipart.med.png&ehk=3IWV3QrxMD7XO6q3Gph1grhPKRKkmTjxLrdl7nBMNYU%3d&risl=&pid=ImgRaw&r=0" height="30px" class="ml-5"/>
+                  <h5 class="">NABL Accredited labs</h5>
+                </div>
+              </div>
+              <!-- <div class="col-12 col-lg-3 ">
+                <div class="d-flex flex-row text-center">
+                  <img src="https://th.bing.com/th/id/R.e8f75ec0390d5a9210d3fd75f154d284?rik=wscjrjNHR%2fFe9g&riu=http%3a%2f%2fwww.clker.com%2fcliparts%2f6%2f6%2fb%2f1%2f1516809756744132231injection-clipart.med.png&ehk=3IWV3QrxMD7XO6q3Gph1grhPKRKkmTjxLrdl7nBMNYU%3d&risl=&pid=ImgRaw&r=0" height="30px" class=""/>
+                  <h5 class="">NABL Accredited labs</h5>
+                </div>
+              </div> -->
+              <div class="col-12 d-lg-none text-center">
+              <h1>We keep Expanding !</h1>
+              <div class="d-flex flex-column p-3">
+                <div class="d-flex flex-row justify-content-center p-2">
+                  <div class="box3 pt-4"><h5>5  + <br/>Labs</h5></div>
+                  <div class="box3 "><h5>100 + collection centers</h5></div>
+                </div>
+                <div class="d-flex flex-row justify-content-center p-2">
+                  <div class="box3"><h5>1000 + monthly tests</h5></div>
+                  <div class="box3 pt-2"><h5>2200 Test Menu</h5></div>
+                </div>
+                <div class="d-flex justify-content-center">
+                  <div class="box3 text-center pt-2"><h5>5 +<br/> cities present in</h5></div>
+                </div>
+               </div>
+              </div>
+              <div class="d-none col-lg-12 d-lg-inline-block text-center">
+                <h1 class="mt-2 mb-2">We keep Expanding !</h1>
+              </div>
+              <div class="d-none col-lg-3 d-lg-block ">
+                    <div class="box3 ml-5 "><h5 class="pt-2">5  + <br/>Labs</h5></div>
+              </div>
+              <div class="d-none col-lg-2  d-lg-block">
+                    <div class="box3 "><h5>100 + collection centers</h5></div>
+              </div>
+              <div class=" d-none col-lg-2  d-lg-block ">
+                    <div class="box3"><h5>1000 + monthly tests</h5></div>
+              </div>
+              <div class=" d-none col-lg-2 d-lg-block ">
+                    <div class="box3 pt-2"><h5>2200 Test Menu</h5></div>
+              </div>
+              <div class="d-none col-lg-3  d-lg-block">
+                    <div class="box3 text-center"><h5>5 +<br/> cities present in</h5></div>
+              </div>
+              <div class="col-12 col-lg-12 text-center mt-2 mb-2">
+                <h2 class="mt-3 mb-3">Top<span style="color: blue;font-weight: bold;text-decoration: underline;"> Packages</span></h2>
+                <p>Explore our wide range of tests ! we ensure that uou don't<br/>miss out on any chance to keep your self healthy</p>
+              </div>
+              <div class="col-12 col-lg-3">
+                <div class="shadow text-center m-2">
+                  <h3>Basic Full Body Checkup</h3>
+                  <h5>4.3<img src="https://www.pngfind.com/pngs/m/4-44880_image-result-for-star-vector-rating-star-single.png" height="20px">(75 reviews)</h5>
+                  <h5>Number of tests - 53</h5>
+                  <h4>MRP :<span style="text-decoration: line-through;">10,000</span>8,490 /-</h4>
+                  <button class="btn btn-primary m-2  ">Book Now</button>
+                </div>
+              </div>
+              
+              <div class="col-12 col-lg-3">
+                <div class="shadow  text-center m-2">
+                  <h3>Advance Full Body Checkup</h3>
+                  <h5>4.7<img src="https://www.pngfind.com/pngs/m/4-44880_image-result-for-star-vector-rating-star-single.png" height="20px">(100 reviews)</h5>
+                  <h5>Number of tests - 70</h5>
+                  <h4>MRP :<span style="text-decoration: line-through;">12,000</span>10,000 /-</h4>
+                  <button class="btn btn-primary m-2">Book Now</button>
+                </div>
+              </div>
+              <div class="col-12 col-lg-3">
+                <div class="shadow  text-center m-2">
+                  <h3>Liver Function Test(LFT)</h3>
+                  <h5>4.3<img src="https://www.pngfind.com/pngs/m/4-44880_image-result-for-star-vector-rating-star-single.png" height="20px">(43 reviews)</h5>
+                  <h5>Number of tests - 89</h5>
+                  <h4>MRP :<span style="text-decoration: line-through;">13,299</span>12,299 /-</h4>
+                  <button class="btn btn-primary m-2">Book Now</button>
+                </div>
+              </div>
+              <div class=" col-12 d-lg-none d-flex justify-content-end ">
+                <a href="#">See All</a>
+              </div>
+              <div class="col-lg-3 d-none d-lg-block ">
+                <div class="arrow">
+                  <a href="#">--></a>
+                </div>
+              </div>
+              <div class="col-12 text-center mt-5">
+                <h2 style="font-weight: bold;">Why <span style="text-decoration: underline;font-weight: bold;font-family: Roboto; color: skyblue;">choose </span>us ?</h3>
+                <p>We want you and your heart to be healthy so yo can live a <br/> happy life !</p>
+              </div>
+              <div class="col-12 d-lg-none text-center" >
+               <button class="btn btn-primary mb-2">
+                <div class="d-flex flex-row p-3">
+                <img src="https://3.imimg.com/data3/NJ/LU/MY-1911407/logo-nabl-1-250x250.jpg" height="30px" class=""/>
+                <h5 class="">NABL Accredited labs</h5> 
+                </div>
+                </button>
+              </div>
+              <div class="col-12 d-lg-none text-center" >
+                <button class="btn btn-primary mb-2">
+                 <div class="d-flex flex-row p-3">
+                 <img src="https://th.bing.com/th/id/OIP.WPYPa4GubQVLa0kQqXcfvwHaHa?pid=ImgDet&rs=1" height="30px" class=""/>
+                 <h5 class="">Timely collections</h5> 
+                 </div>
+                 </button>
+               </div>
+           
+              <div class="col-12 d-lg-none text-center" >
+              <button class="btn btn-primary mb-2">
+               <div class="d-flex flex-row p-3">
+               <img src="https://th.bing.com/th/id/OIP.U4mLZ6wVebXv7HBw7g3LFAHaJe?pid=ImgDet&rs=1" height="30px" class=""/>
+               <h5 class="">value experience</h5> 
+               </div>
+               </button>
+              </div>
+              <div class="col-12 d-lg-none text-center" >
+                <button class="btn btn-primary mb-2">
+                <div class="d-flex flex-row p-3">
+                <img src="https://t4.ftcdn.net/jpg/00/96/58/03/500_F_96580353_fAdFWQzGK5XmMql7Sij3XWS87aEPATTg.jpg" height="50px" class="" style="border-radius: 10px;"/>
+                <h5 class="">Transparency</h5>
+                </div>
+                <p>Enjoy Hassle free medical assitance with our Transparent approach. We prioritized for you smooth medical journey </p>
+                </button>
+              </div>
+              <div class="d-none col-lg-6 d-lg-inline-block text-center">
+                  <div class="d-flex flex-row jusify-content-center m-4">
+                    <div class="d-flex flex-column shadow">
+                        <div class="d-flex flex-row justify-content-center">
+                          <h2>NABL Accredited Labs</h2><img src="https://3.imimg.com/data3/NJ/LU/MY-1911407/logo-nabl-1-250x250.jpg" class="image-of-below"/>
+                        </div>
+                        <p>Get accurated and safe results from us NABL certified labs</p>
+                    </div>
+                    <div class="d-flex flex-column shadow">
+                        <div class="d-flex flex-row justify-content-center">
+                          <h2>VAlue Experience</h2><img src="https://th.bing.com/th/id/OIP.WPYPa4GubQVLa0kQqXcfvwHaHa?pid=ImgDet&rs=1"
+                              class="image-of-below"/>
+                        </div>
+                        <p>Get accurated and safe results from us NABL certified labd</p>
+                    </div>
+                  </div>
+                  <div class="d-flex flex-row jusify-content-center m-4">
+                    <div class="d-flex flex-column shadow">
+                        <div class="d-flex flex-row justify-content-center">
+                          <h2>Timely collection</h2><img src="https://th.bing.com/th/id/OIP.U4mLZ6wVebXv7HBw7g3LFAHaJe?pid=ImgDet&rs=1" class="image-of-below"/>
+                        </div>
+                        <p>Get accurated and safe results from us NABL certified labs</p>
+                    </div>
+                    <div class="d-flex flex-column shadow">
+                        <div class="d-flex flex-row justify-content-center">
+                          <h2>Transparency</h2><img src="https://t4.ftcdn.net/jpg/00/96/58/03/500_F_96580353_fAdFWQzGK5XmMql7Sij3XWS87aEPATTg.jpg"
+                              class="image-of-below"/>
+                        </div>
+                        <p>Get accurated and safe results from us NABL certified labd</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-lg-6 d-none d-lg-block none text-center">
+                <img src="https://thumbs.dreamstime.com/b/friendly-smiling-young-female-doctor-pointing-finger-to-copy-spase-something-healthcare-product-friendly-smiling-176563006.jpg" class="w-100 h-100"/>
+              </div>
+              <div class="col-12 col-lg-6 d-lg-none text-center">
+                <img src="https://thumbs.dreamstime.com/b/friendly-smiling-young-female-doctor-pointing-finger-to-copy-spase-something-healthcare-product-friendly-smiling-176563006.jpg" class="w-100 h-100"/>
+              </div>
+                <div class="logo col-12 col-lg-12 bg-dark">
+                  <img src="https://notinline.org/home-assets/img/logo.png" height="100px" width="150px"/>
+                </div>
+                <div class=" d-none col-lg-3 d-lg-inline-block text-center bg-dark text-white">
+                  <p style="font-family: Roboto;">Book Doctor appoinments online and get your allignments treated in not time with our expert medical support systems. Get rid of all your medical problem
+                    with our expert panel of doctors who guide you towards a healthir life
+                  </p>
+                  <p class="contact">
+                     <button class="btn btn-secondary">91+
+                      <input class="box2 text-center" type="text" id="fname" name="fname" value="number">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                        <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                      </svg>
+                     </button> 
+                  </p>
+                </div>
+                <div class=" col-12 d-lg-none text-center bg-dark text-white">
+                  <p style="font-family: Roboto;">Book Doctor appoinments online and get your allignments treated in not time with our expert medical support systems. Get rid of all your medical problem
+                    with our expert panel of doctors who guide you towards a healthir life
+                  </p>
+                </div>
+                <div class=" col-4 col-lg-3 d-flex flex-column bg-dark text-white">                    
+                         <h3>Services</h3>
+                         <p>Appointments</p>
+                         <p>Lab Tests</p>
+                         <p>A-Z medicine</p>
+                         <p>Doctor Support</p>
+                </div>
+                <div class=" col-4 col-lg-3 d-flex flex-column bg-dark text-white">
+                         <h3>Legal</h3>
+                         <p>Generakl Info</p>
+                         <p>Privacy Policy</p>
+                         <p>Terms and Services</p>
+                         <p>Consultation</p>
+                         <p>How it Works</p>
+                </div>
+                <div class="col-4 col-lg-3 d-flex flex-column bg-dark text-white">
+                         <h3>Talk to us</h3>
+                         <p>support@notinline.com</p>
+                         <p>appointment@notinline.com</p>
+                         <p>+ 91 1234567890</p>
+                         <p>+ 91 8688802866</p>
+                </div>
+                 <div class="col-12 copyright text-white-50 text-white bg-dark">
+                  <hr class="line"/>
+                  <p ><i class="fa-regular fa-copyright"></i> 2021-2023 All rights reserved</p>
+                 </div>
+              </div>
+            </div>
+          
+        <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+</html>
+    
